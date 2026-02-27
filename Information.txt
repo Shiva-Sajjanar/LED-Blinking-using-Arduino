@@ -1,0 +1,110 @@
+🔹 1. LED Blinking Project
+
+Concepts: GPIO, Digital Output
+
+Blink single LED
+
+Create LED patterns
+
+Use push button to control LED
+
+<hr>
+
+🔹 2. Traffic Light System
+
+Concepts: Timing, Digital Output
+
+Use 3 LEDs (Red, Yellow, Green)
+
+Simulate real traffic signal timing
+
+Add pedestrian button feature
+
+<hr>
+
+🔹 3. Temperature Monitoring System
+
+Components: LM35 / DHT11
+Concepts: ADC, Serial Monitor
+
+Read temperature
+
+Display on Serial Monitor
+
+Add LCD display for better output
+
+<hr>
+
+🔹 4. Ultrasonic Distance Measurement
+
+Sensor: HC-SR04
+Concepts: Pulse timing
+
+Measure distance
+
+Display in cm
+
+Add buzzer for obstacle alert
+
+<hr>
+
+🔹 5. Automatic Street Light
+
+Sensor: LDR
+Concepts: Analog Input
+
+Light turns ON in dark
+
+Turns OFF in daylight
+
+<hr>
+
+🔹 6. PIR Motion Detector Alarm
+
+Sensor: PIR sensor
+
+Detect human movement
+
+Activate buzzer or LED
+
+<hr>
+
+🔹 7. Servo Motor Control
+
+Concepts: PWM
+
+Control servo angle
+
+Make mini gate system
+
+<hr>
+
+🔹 8. Password Based Door Lock
+
+Components: Keypad + Servo
+
+Enter password
+
+Servo unlocks door
+
+Add LCD display
+
+<hr>
+
+🔹 9. IoT Temperature Monitoring (Advanced Beginner)
+
+Using ESP8266/ESP32
+
+Send temperature data to cloud
+
+View on mobile
+
+<hr>
+
+🔹 10. Line Follower Robot
+
+Concepts: IR Sensors + Motor Driver
+
+Robot follows black line
+
+<hr>
