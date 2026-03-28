@@ -1,0 +1,40 @@
+📌 Project Information
+🔧 Objective
+
+To blink an LED using an Arduino board and understand basic embedded programming.
+
+🛠️ Components Required
+Arduino Board (UNO / Nano)
+LED
+220Ω Resistor
+Breadboard
+Jumper wires
+
+🔌 Circuit Connection
+LED long leg (+) → Pin 13
+LED short leg (-) → Resistor → GND
+⚙️ Working Principle
+Arduino sends HIGH signal (5V) → LED turns ON
+Arduino sends LOW signal (0V) → LED turns OFF
+delay() controls blinking speed
+Loop runs continuously → LED keeps blinking
+
+📊 Output
+LED blinks ON and OFF every 1 second
+🚀 Advanced Version (Better for Resume)
+// Adjustable LED Blink using variable
+
+int ledPin = 13;
+int delayTime = 500;  // change speed here
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(ledPin, HIGH);
+  delay(delayTime);
+
+  digitalWrite(ledPin, LOW);
+  delay(delayTime);
+}
